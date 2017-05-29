@@ -1,1 +1,11 @@
 # dns-docker
+
+```
+sudo docker build --rm -t dns .
+
+and then something like
+
+sudo docker run -h dns.tshifters.com --restart always --name dns --net 10.1.1.0 --ip 10.1.1.2 --add-host dockerhost:10.1.1.1 -it dns bash
+```
+
+If the net and ip are omitted, the host's IP will need to be specified as DNS server's IP

@@ -21,5 +21,4 @@ COPY db.shifters.com /etc/bind
 
 # Expose ports
 EXPOSE 53
-EXPOSE 22
 CMD service bind9 start && /bin/bash
