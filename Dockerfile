@@ -14,7 +14,6 @@ ENV PKG_RESOURCES_CACHE_ZIP_MANIFESTS 1
 
 RUN apt-get update -y
 RUN apt-get install -y bind9 bind9utils
-RUN apt-get install -y tcpdump vim iptables
 
 COPY named.conf.local /etc/bind
 COPY db.shifters.com /etc/bind
