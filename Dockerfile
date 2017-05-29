@@ -16,7 +16,7 @@ RUN apt-get update -y
 RUN apt-get install -y bind9 bind9utils
 
 COPY named.conf.local /etc/bind
-COPY db.shifters.com /etc/bind
+COPY db.example.com /etc/bind
 
 # Expose ports
 EXPOSE 53

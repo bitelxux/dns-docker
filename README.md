@@ -19,7 +19,7 @@ If the net and ip are omitted, the host's IP will need to be specified as DNS se
 ```
 #/etc/resolv.conf
 
-search shifters.com
+search example.com
 nameserver 10.1.1.2 # if an IP was given
 #nameserver 10.1.1.1 # host's IP, if no IP was given to the container
 ```

@@ -1,13 +1,13 @@
 $TTL    604800
-$ORIGIN shifters.com.
-@       IN      SOA     shifters.com. root.shifters.com. (
+$ORIGIN example.com.
+@       IN      SOA     example.com. root.example.com. (
                              10         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 ;
-@               IN      NS      shifters.com.
+@               IN      NS      example.com.
 @               IN      A       10.1.1.2
  
 gitlab          IN      A       10.1.1.50
